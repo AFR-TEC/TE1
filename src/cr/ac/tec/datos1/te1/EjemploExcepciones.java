@@ -16,7 +16,7 @@ public class EjemploExcepciones {
     public void atraparExcepcion() throws Number2Exception{
         if (b == 2){
             this.b = 7;
-            //throw new Number2Exception("No me gusta el numero 2.");
+            throw new Number2Exception("No me gusta el numero 2.");
         }
         try {
             System.out.println("Ejecutando instrucciones...");
